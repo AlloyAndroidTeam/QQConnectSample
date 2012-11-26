@@ -17,12 +17,12 @@ import android.content.Intent;
 public class LoginSample {
 	
 	public static void login(Context context){
-		Intent intent = new Intent(context, TAuthView.class);
+/*		Intent intent = new Intent(context, TAuthView.class);
 	       intent.putExtra(TAuthView.CLIENT_ID, Config.APPID);
 	       intent.putExtra(TAuthView.SCOPE, Config.ALL_RIGHT);	
 	       intent.putExtra(TAuthView.TARGET, "_self");
 	       intent.putExtra(TAuthView.CALLBACK, ""); 
-	       context.startActivity(intent);	
+	       context.startActivity(intent);	*/
 	}
 	
 }

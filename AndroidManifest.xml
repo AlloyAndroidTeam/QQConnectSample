@@ -21,14 +21,12 @@
             </intent-filter>
         </activity>
         
-        <activity android:name="com.tencent.tauth.TAuthView" 
- android:theme="@style/ThemeActivity" android:launchMode="singleTask" 
+        <activity android:name="com.tencent.tauth.TAuthView" android:launchMode="singleTask" 
  android:configChanges="keyboardHidden|navigation|orientation">
      <intent-filter>  
           <action android:name="android.intent.action.VIEW" />  
           <category android:name="android.intent.category.DEFAULT" />
-          <category android:name="android.intent.category.BROWSABLE" /> 
-          <!—这里的scheme必须与下面设置的CALLBACK一致，且全部小写。默认值是 auth ?-> 
+          <category android:name="android.intent.category.BROWSABLE" />
           <data android:scheme="auth"/>  		
      </intent-filter>  
 </activity>
